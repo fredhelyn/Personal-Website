@@ -1,0 +1,238 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="PersonalWebsite.css">
+     
+    <title>Personal Website</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+#Home, #About, #Resume, #Hobbies, #Family {
+  scroll-margin-top: 100px;
+}
+
+body {
+  background-color: rgb(151, 68, 68);
+  padding-top: 60px; 
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #742525;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
+              0 6px 20px rgba(0, 0, 0, 0.19);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;   
+  top: 0;
+  width: 100%;
+  z-index: 1000;    
+}
+
+ul li {
+  margin: 0 10px;
+  list-style: none;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, border-radius 0.3s ease;
+}
+
+ul li a:hover {
+  background-color: rgb(151, 68, 68);
+  border-radius: 40px;
+}
+.image {
+  border-radius: 90px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.image img {
+  float: right;
+  border-radius: 10%;
+  width: 30%;
+  transform: translateX(-90px); 
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); 
+}
+
+h1{
+  text-align: left;
+  margin-left: 150px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 40px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  font-weight: 900;
+}
+p{
+  text-align: left;
+  margin-left: 150px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  font-weight: 10;
+
+}
+
+
+/*left img2*/
+.left {
+  border-radius: 90px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.left img {
+  float: left;          
+  border-radius: 10%;
+  width: 30%;
+  margin-left: 100px;    
+ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); 
+}
+.left h1{
+     text-align: left;
+  margin-left: 600px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 40px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  font-weight: 900;
+}
+
+.button {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 90px;
+  margin-left: 600px; 
+}
+
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  border: 2px solid #ffffff;
+  font-family: 'Red Hat Mono', sans-serif;
+  font-size: 15px;
+  border-radius: 10px;
+  width: 150px;
+  height: 30px;
+  background-color:  #f0d2d254;
+}
+.left p{
+   text-align: left;
+  margin-left: 600px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  font-weight: 10;
+}
+</style>
+</head>
+<body>
+    
+    
+    <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Resume">Resume</a></li>
+        <li><a href="#Hobbies">Hobbies</a></li>
+        <li><a href="#Family">Family</a></li>
+    </ul>
+
+      <br><br><br><br>
+    <div id="Home">
+    <div class= "image">
+    <img src="mehuhu.png" alt="me"  alt="bading" style="float:right; border-radius: 10%;">
+  <br><br>
+    <h1>Hi, I'm Fredhelyn!</h1>
+    <p>Computer Science Student at Cavite State University - Imus Campus.</p>
+        <br><br><br><br>
+     <h1 style="font-weight: 900;   font-size: 20px;">WELCOME TO MY PERSONAL WEBSITE!</h1>
+        <br><br>
+    </div>
+   
+
+      
+       <div id="About">
+        <div class="left">
+      <img src="26b82370-fcad-4bd4-8176-fa39103fe989.jpg" alt="myself">
+      <br><br>
+      <h1>About Me!</h1>
+      <br><br>
+          <p>Always learning, always growing, and <br>always striving to be better.</p>
+<br><br>
+    <div class="button">
+      <h3><a href="My Self.html"><i>See More</i></a></h3>
+        </div>
+  </div>
+</div>
+
+       <div id="Resume">
+        <div class="left">
+      <img src="2x2.jpg" alt="formal">
+      <br><br>
+      <h1>My Resume</h1>
+     <br><br>
+          <p>I am Fredhelyn M. Layderos, 18 years old <br>
+          A student who’s always willing to learn and grow.</p>
+<br><br>
+    <div class="button">
+      <h3><a href="Layderos.html"><i>See More</i></a></h3>
+        </div>
+  </div>
+</div>
+
+       <div id="Hobbies">
+        <div class="left">
+      <img src="Hobbies.jpg" alt="talents">
+      <br><br>
+      <h1>My Hobbies & Favorites</h1>
+      <br>
+          <p>I enjoy crafting, performing, watching kpop <br>shows, and spending time with friends.
+	<br> I love anything that makes me happy. </p>
+    <div class="button">
+      <h3><a href="MyHobbies.html"><i>See More</i></a></h3>
+        </div>
+  </div>
+</div>
+
+       <div id="Family">
+        <div class="left">
+      <img src="4 (1).png" alt="fam">
+      <br><br>
+      <h1>My Family</h1>
+      <br><br>
+          <p>I’m thankful for my family and the lessons<br> they’ve taught me as I grow.</p>
+    <div class="button">
+      <h3><a href="MyFamily.html"><i>See More</i></a></h3>
+        </div>
+  </div>
+</div>
+
+
+    
+
+</body>
+</html>
