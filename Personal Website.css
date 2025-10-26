@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+#Home, #About, #Resume, #Hobbies, #Family {
+  scroll-margin-top: 100px;
+}
+
+body {
+  background-color: rgb(151, 68, 68);
+  padding-top: 60px; 
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #742525;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
+              0 6px 20px rgba(0, 0, 0, 0.19);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;   
+  top: 0;
+  width: 100%;
+  z-index: 1000;    
+}
+
+ul li {
+  margin: 0 10px;
+  list-style: none;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, border-radius 0.3s ease;
+}
+
+ul li a:hover {
+  background-color: rgb(151, 68, 68);
+  border-radius: 40px;
+}
+.image {
+  border-radius: 90px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.image img {
+  float: right;
+  border-radius: 10%;
+  width: 30%;
+  transform: translateX(-90px); 
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); 
+}
+
+h1{
+  text-align: left;
+  margin-left: 150px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 40px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  font-weight: 900;
+}
+p{
+  text-align: left;
+  margin-left: 150px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  font-weight: 10;
+
+}
+
+
+/*left img2*/
+.left {
+  border-radius: 90px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.left img {
+  float: left;          
+  border-radius: 10%;
+  width: 30%;
+  margin-left: 100px;    
+ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); 
+}
+.left h1{
+     text-align: left;
+  margin-left: 600px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 40px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  font-weight: 900;
+}
+
+.button {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 130px;
+  margin-left: 600px; 
+}
+
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+  border: 2px solid #ffffff;
+  font-family: 'Red Hat Mono', sans-serif;
+  font-size: 15px;
+  border-radius: 10px;
+  width: 150px;
+  height: 30px;
+  background-color:  #f0d2d254;
+}
+.left p{
+   text-align: left;
+  margin-left: 600px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  font-weight: 10;
+}
