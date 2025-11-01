@@ -106,7 +106,7 @@ img{
     font-size:90%;
     background:#742525;
     gap:0;
-    padding:0;
+    padding:7px;
     justify-content:center;
   }
 
@@ -136,4 +136,5 @@ img{
   }
 
 }
+
 
