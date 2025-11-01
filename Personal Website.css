@@ -101,38 +101,45 @@ img{
 }
 @media (max-width:768px){
 
+  body{
+    padding-top:55px;
+  }
+
+  /* NAVIGATION */
   ul{
-    font-size:75%;
-    padding:4px 0;
+    font-size:60%;
+    background:#742525;
     gap:0;
-    flex-wrap:nowrap;     /* ❗ prevents wrapping */
+    padding:0;
+    justify-content:center;
   }
 
   ul li a{
-    padding:10px 12px;   /* smaller padding so they fit */
+    padding:8px 10px;
+    text-align:center;
   }
 
-  .section{
-    padding-top:50px;
-  }
-
+  /* SECTION TEXT */
   .text h1{
-    font-size:30px;
+    font-size:28px;
     text-align:center;
   }
 
   .text p{
+    font-size:16px;
     text-align:center;
-    font-size:18px;
   }
 
+  /* IMAGES */
   img{
-    max-width:300px;
+    max-width:260px;
     margin:auto;
   }
 
+  /* BUTTON */
   .button{
     display:flex;
     justify-content:center;
   }
 }
+
