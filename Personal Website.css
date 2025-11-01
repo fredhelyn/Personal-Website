@@ -103,7 +103,7 @@ img{
   }
 
   ul{
-    font-size:60%;
+    font-size:90%;
     background:#742525;
     gap:0;
     padding:0;
@@ -111,7 +111,7 @@ img{
   }
 
   ul li a{
-    padding:8px 10px;
+    padding:10px 15px;
     text-align:center;
   }
 
@@ -136,3 +136,4 @@ img{
   }
 
 }
+
