@@ -12,7 +12,6 @@ body{
   color:white;
 }
 
-/* ✅ NAV */
 ul{
   list-style:none;
   background:#742525;
@@ -40,7 +39,6 @@ ul li a:hover{
   border-radius:30px;
 }
 
-/* ✅ SECTION FORMAT */
 .section{
   width:100%;
   padding:70px 20px;
@@ -79,11 +77,10 @@ img{
   flex:1 1 280px;
   width:100%;
   max-width:350px;
-  border-radius:10px;
+  border-radius:25px;
   box-shadow:0 8px 16px rgba(0,0,0,.4);
 }
 
-/* ✅ BUTTON */
 .button a{
   display:inline-block;
   margin-top:20px;
@@ -99,7 +96,6 @@ img{
   color:black;
 }
 
-/* ✅ FULL RESPONSIVE BREAKPOINT */
 @media (max-width:768px){
 
   .text h1{
