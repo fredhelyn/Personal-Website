@@ -1,56 +1,130 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	<title>My Hobbies and Favorites</title>
-	</head>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>My Hobbies and Favorites</title>
+
 <style>
- body{
-	background-color: rgb(189, 132, 132);
-	}
+    body{
+        background-color: rgb(189, 132, 132);
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    h1{
+        text-align: center;
+        margin: 40px 0 20px;
+		color: beige;
+    }
+
+    .pics{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 0 20px;
+    }
+
+    .box{
+        width: 400px;
+        background: rgba(255,255,255,0.3);
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .box img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .caption{
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .divider{
+        width: 100%;
+        max-width: 1100px;
+        margin: 20px auto;
+        height: 10px;
+        background: rgb(150, 70, 70);
+        border-radius: 6px;
+    }
+
+    @media(max-width: 600px){
+        h1{
+            font-size: 22px;
+        }
+        .box{
+            width: 90%;
+        }
+        .box img{
+            height: 180px;
+        }
+    }
 </style>
- <body>
-
-<img src="red.jpg" alt="color1" width="1335" height="15"><br><br><br><br><br>
-
-
-
-
-
-<center>
-	<h1><u><i>My Hobbies</i></u></h1>
-</center>
-	<img src="minecraft.jpg" alt="Games" width="445" height="345">
-	<img src="roblox.jpg" alt="Games" width="435" height="345">
-	<img src="crafting.jpg" alt="Crafting" width="445" height="345">
-
-<pre>
-Playing Minecraft                                  	       Playing Roblox with Friend                                    Crafting: Fuzzy Wire/Paper
-</pre>
-<br><br><br><br><br>
-<center>
-	<img src="4f865047-798d-4edc-ad6c-641b27e3a620.jpg" alt="Games" width="445" height="345">
-	<img src="dce3d453-108e-4063-8381-66c2a06516e4.jpg" alt="Games" width="435" height="345">
-</center>
-<pre>
-				Spending Time with friends                                     I enjoy Performing                                  
-</pre>
-
-
-<br><br><br><br><br>
-<center>
-	<h1><u><i>My Favorites</i></u></h1>
-</center>
-		<img src="bp.jpg" alt="Kpop" width="445" height="345">
-	<img src="kpop.jpg" alt="Kpop" width="435" height="345">
-	<img src="ukulele.jpg" alt="Instru" width="445" height="345">
-<pre>
-BlackPink: Watching Blackpink House                            Le Sserafim: Watching Leniverse                                        Practicing Ukulele/Reading Book 
-</pre>
-<br><br><br><br><br><br><br><img src="red.jpg" alt="color1" width="1335" height="15">
-
+</head>
 <body>
 
+<h1><i><u>My Hobbies</u></i></h1>
+
+<div class="pics">
+    <div class="box">
+        <img src="minecraft.jpg" alt="Games">
+        <div class="caption">Playing Minecraft</div>
+    </div>
+
+    <div class="box">
+        <img src="roblox.jpg" alt="Games">
+        <div class="caption">Playing Roblox with Friends</div>
+    </div>
+
+    <div class="box">
+        <img src="crafting.jpg" alt="Crafting">
+        <div class="caption">Crafting (Fuzzy Wire / Paper)</div>
+    </div>
+
+    <div class="box">
+        <img src="4f865047-798d-4edc-ad6c-641b27e3a620.jpg">
+        <div class="caption">Spending Time with Friends</div>
+    </div>
+
+    <div class="box">
+        <img src="dce3d453-108e-4063-8381-66c2a06516e4.jpg">
+        <div class="caption">I Enjoy Performing</div>
+    </div>
+</div>
+<br><br>
+
+<div class="divider"></div>
+<br><br>
+
+<h1><i><u>My Favorites</u></i></h1>
+<br>
+<div class="pics">
+    <div class="box">
+        <img src="bp.jpg" alt="Kpop">
+        <div class="caption">Watching Blackpink House</div>
+    </div>
+
+    <div class="box">
+        <img src="kpop.jpg" alt="Kpop">
+        <div class="caption">Watching Leniverse (Le Sserafim)</div>
+    </div>
+
+    <div class="box">
+        <img src="ukulele.jpg" alt="Instrument">
+        <div class="caption">Ukulele / Reading Books</div>
+    </div>
+</div>
+
+<br><br>
+
+
+</body>
 </html>
-
-
-
