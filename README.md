@@ -30,7 +30,7 @@
     </section>
 <br><br>
 
-    <section id="About" class="section about">
+    <section id="About" class="section">
         <div class="page">
             <img src="26b82370-fcad-4bd4-8176-fa39103fe989.jpg" alt="myself">
             <div class="cap">
@@ -44,7 +44,7 @@
     </section>
 <br><br><br>
 
-    <section id="Resume" class="section resume">
+    <section id="Resume" class="section">
         <div class="page">
             <img src="2x2.jpg" alt="formal">
             <div class="cap">
@@ -58,7 +58,7 @@
     </section>
 <br><br><br>
 
-    <section id="Hobbies" class="section resume">
+    <section id="Hobbies" class="section">
         <div class="page">
             <img src="Hobbies.jpg" alt="talents">
             <div class="cap">
@@ -72,7 +72,7 @@
     </section>
 <br><br><br>
 
-    <section id="Family" class="section fam">
+    <section id="Family" class="section">
         <div class="page">
             <img src="4 (1).png" alt="fam">
             <div class="cap">
