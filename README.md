@@ -6,6 +6,17 @@
     <link rel="stylesheet" type="text/css" href="Personal Website.css">
 </head>
 <body>
+  <html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="PersonalWebsite.css">
+     
+    <title>Personal Website</title>
+
+</head>
+<body>
+    
     <ul>
         <li><a href="#Home">Home</a></li>
         <li><a href="#About">About</a></li>
@@ -14,79 +25,77 @@
         <li><a href="#Family">Family</a></li>
     </ul>
 
-    <br><br><br><br>
-    <div id="Home">
-        <div class="image">
-            <img src="mehuhu.png" alt="me" style="float:right; border-radius: 10%;">
-            <br><br>
-            <h1>Hi, I'm Fredhelyn!</h1>
-            <p>Computer Science Student at Cavite State University - Imus Campus.</p>
-            <br><br><br><br>
-            <h1 style="font-weight: 900; font-size: 20px;">WELCOME TO MY PERSONAL WEBSITE!</h1>
-            <br><br>
+    <section id="Home" class="section home">
+        <div class="content">
+            <div class="text">
+                <h1>Hi, I'm Fredhelyn!</h1>
+                <p>Computer Science Student at Cavite State University - Imus Campus.</p>
+                <h1 class="title2">WELCOME TO MY PERSONAL WEBSITE!</h1>
+            </div>
+            <img src="mehuhu.png" alt="me">
         </div>
-    </div>
+    </section>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <div id="About">
-        <div class="left">
+
+    <section id="About" class="section">
+        <div class="content">
             <img src="26b82370-fcad-4bd4-8176-fa39103fe989.jpg" alt="myself">
-            <br><br>
-            <h1>About Me!</h1>
-            <br><br>
-            <p>Always learning, always growing, and <br>always striving to be better.</p>
-            <br><br>
-            <div class="button">
-                <h3><a href="My Self.html"><i>See More</i></a></h3>
+            <div class="text">
+                <h1>About Me!</h1>
+                <p>Always learning, always growing, and always striving to be better.</p>
+                <div class="button">
+                    <a href="My Self.html">See More</a>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <div id="Resume">
-        <div class="left">
+    <section id="Resume" class="section">
+        <div class="content">
             <img src="2x2.jpg" alt="formal">
-            <br><br>
-            <h1>My Resume</h1>
-            <br><br>
-            <p>I am Fredhelyn M. Layderos, 18 years old <br>
-            A student who’s always willing to learn and grow.</p>
-            <br><br>
-            <div class="button">
-                <h3><a href="Layderos.html"><i>See More</i></a></h3>
+            <div class="text">
+                <h1>My Resume</h1>
+                <p>I am Fredhelyn M. Layderos, 18 years old. A student who’s always willing to learn and grow.</p>
+                <div class="button">
+                    <a href="Layderos.html">See More</a>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <div id="Hobbies">
-        <div class="left">
+    <section id="Hobbies" class="section">
+        <div class="content">
             <img src="Hobbies.jpg" alt="talents">
-            <br><br>
-            <h1>My Hobbies & Favorites</h1>
-            <br>
-            <p>I enjoy crafting, performing, watching kpop <br>shows, and spending time with friends.
-            <br>I love anything that makes me happy.</p>
-            <div class="button">
-                <h3><a href="MyHobbies.html"><i>See More</i></a></h3>
+            <div class="text">
+                <h1>My Hobbies & Favorites</h1>
+                <p>I enjoy crafting, performing, watching kpop shows, and spending time with friends.</p>
+                <div class="button">
+                    <a href="MyHobbies.html">See More</a>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <div id="Family">
-        <div class="left">
+    <section id="Family" class="section">
+        <div class="content">
             <img src="4 (1).png" alt="fam">
-            <br><br>
-            <h1>My Family</h1>
-            <br><br>
-            <p>I’m thankful for my family and the lessons<br> they’ve taught me as I grow.</p>
-            <div class="button">
-                <h3><a href="MyFamily.html"><i>See More</i></a></h3>
+            <div class="text">
+                <h1>My Family</h1>
+                <p>I’m thankful for my family and the lessons they’ve taught me as I grow.</p>
+                <div class="button">
+                    <a href="MyFamily.html">See More</a>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+    
+    
 
-    <br><br><br><br><br><br><br><br><br><br><br><br>
+    
+
 </body>
+</html>
+
+
+
 </html>
