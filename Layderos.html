@@ -1,104 +1,149 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	<title>Resume</title>
-	</head>
- <body>
-<image src= "2x2.jpg" alt="Me" width="125" >
-<h2>Layderos, Fredhelyn M.</h2>
-<p><b>Work:</b> Student</p>
-<p><b>Contact Number:</b><u> +639813796633</u></p>
-<p><b>Email:</b> fredhelyn.layderos@cvsu.edu.ph</p>
-<p><b>Address:</b> Green Point Homes, Mambog 4, Bacoor, Cavite</p>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Resume</title>
+
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background: #6b2b2b;
+    }
+
+    .work{
+        max-width: 850px;
+        background: white;
+        padding: 30px;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #00000030;
+    }
+
+    .resume{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .resume img{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    h2{
+        margin-top: 25px;
+        margin-bottom: 10px;
+        border-bottom: 2px solid rgb(0, 0, 0);
+        padding-bottom: 5px;
+        color: rgb(0, 0, 0);
+    }
+
+    p{
+        margin: 3px 0 10px;
+    }
+
+    .info-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px 40px;
+    }
+
+    @media(max-width:700px){
+        .resume{
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }
+
+        .info-grid{
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .skol{
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+</style>
+</head>
+<body>
+
+<div class="work">
+
+    <div class="resume">
+        <img src="2x2.jpg" alt="Me">
+        <div>
+            <h1 style="margin-bottom:5px;">Layderos, Fredhelyn M.</h1>
+            <p><b>Work:</b> Student</p>
+            <p><b>Contact Number:</b> <u>+639813796633</u></p>
+            <p><b>Email:</b> fredhelyn.layderos@cvsu.edu.ph</p>
+            <p><b>Address:</b> Green Point Homes, Mambog 4, Bacoor, Cavite</p>
+        </div>
+    </div>
 
 
-<br>
-
-<!-- personal info -->
-<h2>PERSONAL INFORMATION</h2>
-
-<p><b>Age:</b> 18 </p>
-<p><b>Date of Birth:</b> March 06, 2007 </p>
-<p><b>Sex:</b> Female </p>
-<br>
-<p><b>Status:</b> Single </p>
-<p><b>Citizenship:</b> Filipino </p>
-<p><b>Religion:</b> Catholic </p>
-
-<br>
-
-<!-- educational -->
-<h2>EDUCATIONAL ATTAINMENT</h2>
-
-<h5><b>ELEMENTARY: BATCH 2013-2017</b></h5> 
-<p>Mabaus Elementary School, Davao, City</p>
-<br>
-<h5><b>JUNIOR HIGH SCHOOL: BATCH 2019-2023</b></h5> 
-<p>Marvelous Faith Academy, Bacoor, Cavite</p>
-<br>
-<h5><b>SENIOR HIGH SCHOOL: BATCH 2023-2025</b></h5> 
-<p>SHS in San Nicholas III, Bacoor, Cavite</p>
-<br>
-<h5><b>COLLEGE: BATCH 2025 - 20**</b></h5> 
-<p>Cavite State University Imus - Campus, Imus, Cavite</p>
-
-<br>
-
-<!-- skills -->
-<h2>SOFT SKILLS</h2>
-
-<h5><b>CREATIVITY:</b></h5> 
-<p> Painting, Crafting, Gaming</p>
-<h5><b>LEADERSHIP:</b></h5> 
-<p>Team Sports</p>
-
-<br>
-
-<h2>HARD SKILLS</h2>
-
-<h5><b>COMPUTER LITERATE (BASIC):</b></h5> 
-<p>MS Word, MS PowerPoint, Canva</p>
-<h5><b>WEB PROGRAMMMING:</b></h5> 
-<p>HTML</p>
-<br>
-
-<!-- seminar -->
-<h2>SEMINAR ATTENDED</h2>
-
-<br>
-
-<!-- character ref -->
-<h2>CHARACTER REFERENCES</h2>
-<h5>YZABELLA ARETA:</h5>
-<p>Student</p>
-<br>
-<h5>UNO:</h5>
-<p>Posa</p>
-<br>
-<h5>EL:</h5>
-<p>Student</p>
-<br>
+    <h2>PERSONAL INFORMATION</h2>
+    <div class="info-grid">
+        <p><b>Age:</b> 18</p>
+        <p><b>Date of Birth:</b> March 06, 2007</p>
+        <p><b>Sex:</b> Female</p>
+        <p><b>Status:</b> Single</p>
+        <p><b>Citizenship:</b> Filipino</p>
+        <p><b>Religion:</b> Catholic</p>
+    </div>
 
 
-<br>
+    <h2>EDUCATIONAL ATTAINMENT</h2>
+    <p class="skol">ELEMENTARY (Batch 2013–2017)</p>
+    <p>Mabaus Elementary School, Davao City</p>
 
-<!-- achievements -->
-<h2>ACHIEVEMENTS</h2>
+    <p class="skol">JUNIOR HIGH SCHOOL (Batch 2019–2023)</p>
+    <p>Marvelous Faith Academy, Bacoor, Cavite</p>
 
-<h5><b>4TH HONOR</b></h5> 
-<p>Grade 1 S.Y 2013 - 2014</p>
-<br>
-<h5><b>3RD HONOR</b></h5> 
-<p>Grade 3 S.Y 2015 - 2016</p>
-<br>
-<h5><b>ACADEMIC EXCELLENCE AWARD -  WITH HONORS</b></h5> 
-<p>Grade 10 S.Y 2022 - 2023</p>
-<br>
-<h5><b>ACADEMIC EXCELLENCE AWARD -  WITH HONORS</b></h5> 
-<p>Grade 11 S.Y 2023 - 2024</p>
-<br>
-<h5><b>ACADEMIC EXCELLENCE AWARD -  WITH HONORS</b></h5> 
-<p>Grade 12 S.Y 2024 - 2025</p>
+    <p class="skol">SENIOR HIGH SCHOOL (Batch 2023–2025)</p>
+    <p>San Nicholas III, Bacoor, Cavite</p>
+
+    <p class="skol">COLLEGE (Batch 2025 – 20**)</p>
+    <p>Cavite State University Imus, Cavite</p>
+
+
+    <h2>SOFT SKILLS</h2>
+    <p><b>Creativity:</b> Painting, Crafting, Gaming</p>
+    <p><b>Leadership:</b> Team Sports, Dancing</p>
+
+
+    <h2>HARD SKILLS</h2>
+    <p><b>Computer Literate (Basic):</b> MS Word, MS PowerPoint, Canva</p>
+    <p><b>Web Programming:</b> HTML</p>
+
+
+    <h2>SEMINAR ATTENDED</h2>
+    <p>Career Seminar at Buhay na Tubig Imus - 2023</p>
+	<p>Career Seminar at Buhay na Tubig Imus - 2023</p>
+
+
+    <h2>CHARACTER REFERENCES</h2>
+    <p><b>YZABELLA ARETA</b><br>Student</p>
+    <p><b>UNO</b><br>Posa</p>
+    <p><b>EL</b><br>Student</p>
+	<p><b>Cheny</b><br>Student</p>
+
+
+
+    <h2>ACHIEVEMENTS</h2>
+    <p><b>4TH Honor</b> - Grade 1 (2013-2014)</p>
+    <p><b>3RD Honor</b> - Grade 3 (2015-2016)</p>
+    <p><b>Academic Excellence Award - With Honors</b> - Grade 10 (2022-2023)</p>
+    <p><b>Academic Excellence Award - With Honors</b> - Grade 11 (2023-2024)</p>
+    <p><b>Academic Excellence Award - With Honors</b> -  Grade 12 (2024-2025)</p>
+
+</div>
 
 </body>
 </html>
