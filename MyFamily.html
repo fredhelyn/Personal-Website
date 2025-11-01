@@ -1,52 +1,122 @@
 <!DOCTYPE html>
-<html>
-	<head>
-	<title>My Family</title>
-	</head>
- <body>
-<style>
-        body{
-            background-color: rgb(255, 190, 220);
-        }
-        h1{
-            font-size: 45px;
-            font-family: monospace;
-            text-align: center;
-            color: #bb5d5d;
-        }
-        p{
-            font-size: 20px;
-            color: brown;
-        }
-	h3{
-	 font-size: 20px;
-            color: brown;
-	text-align:center
-	}
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Family</title>
 
-    </style>
+<style>
+    body{
+        background-color: rgb(218, 128, 128);
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    h1{
+        font-size: 45px;
+        font-family: monospace;
+        text-align: center;
+        color: beige;
+    }
+
+    p{
+        font-size: 20px;
+        color: brown;
+    }
+    .pics{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .box{
+        width: 280px;
+        background: rgba(253, 253, 150, 1);
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .box img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .caption{
+        margin-top: 8px;
+        color: brown;
+        font-size: 18px;
+        font-weight: bold;
+    }
+.divider{
+        width: 100%;
+        max-width: 1100px;
+        margin: 20px auto;
+        height: 10px;
+        background: rgb(150, 70, 70);
+        border-radius: 6px;
+    }
+    @media(max-width:600px){
+        h1{
+            font-size: 30px;
+        }
+        .box{
+            width: 190px;
+        }
+        .box img{
+            height: 190px;
+        }
+    }
+</style>
+
 </head>
 <body>
-    <br><br>
-        <h1><u>LAYDEROS FAMILY</u></h1>
-<br><br>
-<image src= "pic (20.7 x 10 cm) (3).png" alt="Family long collage" width="1333" height="350">
 
-<br><br><br><br><br><br><br><br><br><br>
-<h1>The Family Members</h1>
+<br><br>
+<h1><u>LAYDEROS FAMILY</u></h1>
+<br><br>
+
+<img src="pic (20.7 x 10 cm) (3).png" alt="Family long collage" width="100%" height="350">
+
 <br><br><br>
-<image src= "mama.jpg" alt="Mama" width="335" >
-<image src= "papa.jpg" alt="Papa" width="325" height="345">
-<image src= "me.jpg" alt="Me" width="325" >
-<image src= "bunso.jpg" alt="Bunso" width="335" >
-<pre><p> Mama Liza                      Papa Freddie                  Ate Fredhelyn                 Bunso Luigi  
-</p></pre>
-<br><br>
-<h3>When I look at these photos, I remember the time when it was just me, Mama, and Papa. Life was happy and simple. We laughed, played, and took many pictures together. Then things changed. The youngest did not feel Papa’s love the same way we did. He was still a baby when everything happened. Sometimes I feel sad about it, but I know Papa loved us all. Now, when I see these photos, I feel thankful. Thankful for the moments we had, thankful for Mama who stayed strong, and thankful that love is still in our hearts.</h3>
 
-<br><br>
+<div class="divider"></div>
 
 
+<h1>The Family Members</h1>
+
+
+<div class="pics">
+
+    <div class="box">
+        <img src="mama.jpg" alt="Mama">
+        <div class="caption">Mama Liza</div>
+    </div>
+
+    <div class="box">
+        <img src="papa.jpg" alt="Papa">
+        <div class="caption">Papa Freddie</div>
+    </div>
+
+    <div class="box">
+        <img src="me.jpg" alt="Me">
+        <div class="caption">Ate Fredhelyn</div>
+    </div>
+
+    <div class="box">
+        <img src="bunso.jpg" alt="Bunso">
+        <div class="caption">Bunso Luigi</div>
+    </div>
+
+</div>
+
+
+
+<br><br><br>
 
 </body>
 </html>
