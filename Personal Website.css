@@ -99,22 +99,21 @@ img{
   background:white;
   color:black;
 }
-
 @media (max-width:768px){
 
   ul{
-    font-size:80%;
-    padding:6px 0;
-    flex-direction:column;
-    align-items:center;
+    font-size:75%;
+    padding:4px 0;
+    gap:0;
+    flex-wrap:nowrap;     /* ❗ prevents wrapping */
   }
 
   ul li a{
-    padding:10px;
+    padding:10px 12px;   /* smaller padding so they fit */
   }
 
   .section{
-    padding-top:40px;
+    padding-top:50px;
   }
 
   .text h1{
@@ -137,6 +136,3 @@ img{
     justify-content:center;
   }
 }
-
-
-
