@@ -25,6 +25,8 @@ ul{
   gap:5px;
   flex-wrap:wrap;
   box-shadow:0 4px 10px rgba(0,0,0,.3);
+    font-size: 90%;
+
 }
 
 ul li a{
@@ -117,3 +119,4 @@ img{
     justify-content:center;
   }
 }
+
