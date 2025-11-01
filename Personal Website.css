@@ -45,7 +45,7 @@ ul li a:hover{
   padding:70px 20px;
 }
 
-.content{
+.page{
   max-width:1100px;
   margin:auto;
   display:flex;
@@ -54,22 +54,22 @@ ul li a:hover{
   flex-wrap:wrap;
 }
 
-.text{
+.cap{
   flex:1 1 300px;
 }
 
-.text h1{
+.cap h1{
   font-size:38px;
   font-weight:900;
   text-shadow:2px 2px 5px rgba(0,0,0,0.5);
 }
-.text p{
+.cap p{
   font-size:20px;
   margin-top:10px;
   text-shadow:2px 2px 5px rgba(0,0,0,0.5);
 }
 
-.title2{
+.title{
   font-size:22px;
   margin-top:20px;
 }
@@ -115,12 +115,12 @@ img{
     text-align:center;
   }
 
-  .text h1{
+  .cap h1{
     font-size:30px;
     text-align:center;
   }
 
-  .text p{
+  .cap p{
     text-align:center;
     font-size:18px;
   }
@@ -136,5 +136,3 @@ img{
   }
 
 }
-
-
